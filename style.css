@@ -39,6 +39,14 @@
       font-family: 'Syne', sans-serif; font-weight: 700; font-size: 0.8rem;
     }
 
+    .step-num-big {
+      width: 3rem; height: 3rem; min-width: 2rem;
+      border-radius: 50%;
+      background: linear-gradient(135deg, #7c3aed, #d946ef);
+      display: flex; align-items: center; justify-content: center;
+      font-family: 'Syne', sans-serif; font-weight: 700; font-size: 0.8rem;
+    }
+
     /* Horizontal connector line for steps (desktop) */
     .steps-grid .step-connector {
       position: absolute; top: 1rem; left: calc(50% + 1rem); right: calc(-50% + 1rem);

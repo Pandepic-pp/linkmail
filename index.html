@@ -27,6 +27,7 @@
       <a href="#features" class="hover:text-white transition">Features</a>
       <a href="#how-it-works" class="hover:text-white transition">How it Works</a>
       <a href="#linkedin-hack" class="hover:text-white transition">LinkedIn Hack</a>
+      <a href="#app-password" class="hover:text-white transition">App Password</a>
       <a href="#email-convention" class="hover:text-white transition">Email Convention</a>
       <a href="#pricing" class="hover:text-white transition">Pricing</a>
     </div>
@@ -46,6 +47,7 @@
     <a href="#features" class="mobile-link block py-2.5 text-sm text-zinc-300 hover:text-white transition border-b border-zinc-800/50">Features</a>
     <a href="#how-it-works" class="mobile-link block py-2.5 text-sm text-zinc-300 hover:text-white transition border-b border-zinc-800/50">How it Works</a>
     <a href="#linkedin-hack" class="mobile-link block py-2.5 text-sm text-zinc-300 hover:text-white transition border-b border-zinc-800/50">LinkedIn Hack</a>
+    <a href="#app-password" class="mobile-link block py-2.5 text-sm text-zinc-300 hover:text-white transition border-b border-zinc-800/50">App Password</a>
     <a href="#email-convention" class="mobile-link block py-2.5 text-sm text-zinc-300 hover:text-white transition border-b border-zinc-800/50">Email Convention</a>
     <a href="#pricing" class="mobile-link block py-2.5 text-sm text-zinc-300 hover:text-white transition">Pricing</a>
   </div>
@@ -296,6 +298,89 @@ console.log(values);</code></pre>
         </div>
       </div>
       <p class="text-xs text-zinc-500 mt-3 text-center">⚠️ Paste each line separately into the console and press Enter. Do not paste all at once.</p>
+    </div>
+  </div>
+</section>
+
+<!-- ═══════════════════════════════════════════
+     GMAIL APP PASSWORD GUIDE
+════════════════════════════════════════════ -->
+<section id="app-password" class="py-16 sm:py-24 bg-zinc-950 border-y border-zinc-800/60">
+  <div class="max-w-5xl mx-auto px-4 sm:px-6">
+    <div class="text-center mb-12 fade-up">
+      <span class="badge mb-4">Required Step</span>
+      <h2 class="text-3xl sm:text-4xl font-bold mt-3">How to Create a Gmail App Password</h2>
+      <p class="text-zinc-400 mt-3 text-sm sm:text-base max-w-3xl mx-auto">
+        Our tool uses your own Gmail to send emails — securely and without third-party servers.<br>
+        Google no longer allows regular passwords for apps like this, so you need a special <strong>16-digit App Password</strong>.<br>
+        <strong>Important:</strong> You must enable 2-Step Verification first.
+      </p>
+    </div>
+
+    <div class="grid md:grid-cols-2 gap-8 fade-up">
+      <!-- Left: Steps -->
+      <div class="space-y-6">
+        <div class="bg-zinc-900 border border-zinc-800 rounded-2xl p-6">
+          <h4 class="text-lg font-semibold mb-4 flex items-center gap-3">
+            <span class="step-num-big text-xs">Step 1</span>
+            Enable 2-Step Verification (if not already on)
+          </h4>
+          <ol class="list-decimal pl-5 space-y-3 text-sm text-zinc-300">
+            <li>Go to your <a href="https://myaccount.google.com/" target="_blank" class="text-violet-400 hover:underline">Google Account</a></li>
+            <li>Click <strong>Security</strong> in the left menu</li>
+            <li>Under "How you sign in to Google", click <strong>2-Step Verification</strong></li>
+            <li>Follow the prompts to turn it on (use your phone number or authenticator app)</li>
+            <li>Complete verification — you'll get a code on your phone</li>
+          </ol>
+        </div>
+
+        <div class="bg-zinc-900 border border-zinc-800 rounded-2xl p-6">
+          <h4 class="text-lg font-semibold mb-4 flex items-center gap-3">
+            <span class="step-num-big text-xs">Step 2</span>
+            Generate your App Password
+          </h4>
+          <ol class="list-decimal pl-5 space-y-3 text-sm text-zinc-300">
+            <li>Go directly to <a href="https://myaccount.google.com/apppasswords" target="_blank" class="text-violet-400 hover:underline">myaccount.google.com/apppasswords</a></li>
+            <li>Sign in if asked</li>
+            <li>In "Select app", choose <strong>Other (Custom name)</strong></li>
+            <li>Type something like <code class="bg-zinc-800 px-1.5 rounded">LinkMail Bulk Mail</code></li>
+            <li>Click <strong>Generate</strong></li>
+            <li>Copy the 16-digit code that appears (example: <code class="text-emerald-300">abcd efgh ijkl mnop</code>)</li>
+          </ol>
+          <p class="text-xs text-amber-300 mt-4 bg-amber-950/40 p-3 rounded-xl border border-amber-800/50">
+            ⚠️ This code shows <strong>only once</strong>. Paste it into LinkMail when asked — never share it.
+          </p>
+        </div>
+      </div>
+
+      <!-- Right: Tips & Safety -->
+      <div class="space-y-6">
+        <div class="bg-zinc-900/70 border border-zinc-800 rounded-2xl p-6">
+          <h4 class="text-lg font-semibold mb-4 text-emerald-400">Quick Tips</h4>
+          <ul class="space-y-3 text-sm">
+            <li class="flex gap-3"><i class="fa-solid fa-check text-emerald-400 mt-1"></i> Use this App Password <strong>only</strong> in LinkMail</li>
+            <li class="flex gap-3"><i class="fa-solid fa-check text-emerald-400 mt-1"></i> Your real Gmail password stays safe</li>
+            <li class="flex gap-3"><i class="fa-solid fa-check text-emerald-400 mt-1"></i> If you lose the code → just generate a new one (old one stops working)</li>
+            <li class="flex gap-3"><i class="fa-solid fa-check text-emerald-400 mt-1"></i> Revoke anytime from the same page if needed</li>
+          </ul>
+        </div>
+
+        <div class="bg-gradient-to-br from-violet-950/40 to-fuchsia-950/30 border border-violet-800/40 rounded-2xl p-6">
+          <h4 class="text-lg font-semibold mb-3">Why we need this</h4>
+          <p class="text-sm text-zinc-300">
+            Google blocked "less secure apps" years ago. App Passwords let tools like ours connect safely without ever seeing your real password — and without using paid SMTP services.
+          </p>
+          <p class="text-xs text-zinc-500 mt-4 italic">
+            Official Google guide: <a href="https://support.google.com/accounts/answer/185833" target="_blank" class="text-violet-400 hover:underline">support.google.com/accounts/answer/185833</a>
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <div class="text-center mt-12 fade-up">
+      <a href="#signup" class="inline-block px-10 py-4 bg-gradient-to-r from-violet-500 to-fuchsia-500 text-white font-semibold rounded-3xl hover:opacity-90 transition text-lg">
+        Ready? Get 10 free emails now →
+      </a>
     </div>
   </div>
 </section>
